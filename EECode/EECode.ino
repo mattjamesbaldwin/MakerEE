@@ -1,6 +1,3 @@
-//www.elegoo.com
-//2016.12.9
-
 #include "IRremote.h"
 
 int receiver = 11; // Signal Pin of IR receiver to Arduino Digital Pin 11
