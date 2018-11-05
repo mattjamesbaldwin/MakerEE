@@ -1,3 +1,6 @@
+//www.elegoo.com
+//2016.12.9
+
 #include "IRremote.h"
 
 int receiver = 11; // Signal Pin of IR receiver to Arduino Digital Pin 11
@@ -60,7 +63,7 @@ void setup()   /*----( SETUP: RUNS ONCE )----*/
 void loop()   /*----( LOOP: RUNS CONSTANTLY )----*/
 {
   if (irrecv.decode(&results)) // have we received an IR signal?
-  Serial.println("Good job");
+
   {
     translateIR(); 
     irrecv.resume(); // receive the next value
